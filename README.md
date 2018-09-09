@@ -6,7 +6,9 @@
 
 **PB(0-3)** - kolumny 4-1
 
-**PC(4-5)** - wiersz 2-1
+**PC(4-5)** - wiersze 2-1
+
+**PB(4-5)** - wiersze 4-3
 
 **PC(0-3)** - anody 1-4
 
