@@ -28,7 +28,7 @@
 
 ## Zmienne
 
-**uint8_t toDisplay[]** - Przechowuje znaki potrzebne do wyświetlania
+**uint8_t toDisplay[] {0x00, 0x01, 0x1F, 0x77, 0x3D, 0x5E ,0x1D};** - Przechowuje znaki potrzebne do wyświetlania kolejno:  {null, -, b, A, d, g, o}
 
 **uint8_t timerButtons[16]** - uzywana przy eliminacji wielokrotnych przecisnięć
 
