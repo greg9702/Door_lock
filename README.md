@@ -1,5 +1,6 @@
 # Safe lock project
 
+Do projektu użyto Arduino Uno - Atmega328P oraz WiciuBoard
 ## Podpięcie pinów
 
 **PD(0-7)** - a-g
