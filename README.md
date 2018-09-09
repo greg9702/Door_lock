@@ -7,9 +7,7 @@
 
 #define row1Up PORTC |= row1         - podciaganie pinow do zasilania
 
-#define Readcolumn1 !(PINB & column1)- sprawdzanie stanu pinow<br />
-                                        zwraca 1 gdy wcisniety - stad <br />
-                                        negacja<br />
+#define Readcolumn1 !(PINB & column1)- sprawdzanie stanu pinow zwraca 1 gdy wcisniety - stad negacja
                                         
 #define an1_on PORTC &= ~ an1		      - wlaczanie danego segment
 
@@ -19,8 +17,7 @@
 
 uint8_t toDisplay[] - Przechowuje znaki potrzebne do wyświetlania
 
-uint8_t timerButtons[16] - uzywana przy eliminacji wielokrotnych <br />
-                     przecisnięć
+uint8_t timerButtons[16] - uzywana przy eliminacji wielokrotnych przecisnięć
 
 uint8_t segments[4] - okresla co ma sie wyswietlac na danym segmencie
 
@@ -38,34 +35,26 @@ uint8_t stage - liczba od 0 - 5:<br />
  
 bool test - okresla czy lock_pin[] zgadza sie z entered_pin[]
 
-counter_start = false; - zmieniamy na true, gdy wcisnieto Ok i program <br />
-                    musi uruchomic licznik do autoresetu
+counter_start = false; - zmieniamy na true, gdy wcisnieto Ok i program musi uruchomic licznik do autoresetu
 
 int counter - liczy czas po ktorym nastepuje autoreset
 
-uint8_t processButton - sluzy do sprawdzenia w ktorym momencie sprawdzania <br />
-                    klawiatury jestesmy
+uint8_t processButton - sluzy do sprawdzenia w ktorym momencie sprawdzania klawiatury jestesmy
 
-uint8_t anodes - okresla ktora obecnie anoda jest wlaczona, uzywana w <br />
-                    funkcji setAnodes() - gdzie caly czas jej wartosc sie<br />
-                    zmienia w przedziale [0,3]<br />
+uint8_t anodes - okresla ktora obecnie anoda jest wlaczona, uzywana w funkcji setAnodes() - gdzie caly czas jej wartosc sie zmienia w przedziale [0,3]
 
 
 ## Funkcje
 
 void reset_counter() - funkcja do autoresetu programu po wcisnieciu OK
 
-void reset() - resetuje tablice entered_pin, wysweitlacz i stage - cofa <br />
-                    program do poczatku
+void reset() - resetuje tablice entered_pin, wysweitlacz i stage - cofa program do poczatku
 
-void check() - porownuje po wcisnieciu OK enetered_pin[] z lock_pin[] i<br />
-                    ustawaia zmienna test
+void check() - porownuje po wcisnieciu OK enetered_pin[] z lock_pin[] i ustawaia zmienna test
 
-void setAnodes() - wywolywane przerwanie, ustawia zmienna anodes - stereuje<br />
-                     ktory segment ma byc wyswietlany
+void setAnodes() - wywolywane przerwanie, ustawia zmienna anodes - stereuje ktory segment ma byc wyswietlany
 
-void setSegments(uint8_t number) - ustawia PORTD - czyli zmienna high - <br />
-                     okresla co ma byc wyswietlane na tym segmencie
+void setSegments(uint8_t number) - ustawia PORTD - czyli zmienna high - okresla co ma byc wyswietlane na tym segmencie
 
 void checkButtons() - sprawdzanie ktory rzad i kolumna wcisniete
 
@@ -73,10 +62,7 @@ void setButton(uint8_t button) - zapobiega wielokrotnemu wcisniciu przycisku
 
 void print_marks(uint8_t seg_nr) - wyswietla tyle "-" ile wpisano liczb
 
-void selectedButton(uint8_t button) - okresla co znaczy konkretny przycisk w<br />
-                        danej fazie programu, zapobiega rowniez wciskaniu <br />
-                        przyciskow kiedy sie nie da, np klikanie Ok przy <br />
-                        trzech liczbach
+void selectedButton(uint8_t button) - okresla co znaczy konkretny przycisk w danej fazie programu, zapobiega rowniez wciskaniu przyciskow kiedy sie nie da, np klikanie Ok przy trzech liczbach
 
 
 ## Klawiatura 
