@@ -1,5 +1,11 @@
 # Safe lock project
 
+## Podpięcie piów
+
+**PD(0-7)** - a-g
+**PB(0-3)** - kolumny 4-1
+**PC(4-5)** - wiersz 2-1
+**PC(0-3)** - anody 1-4
 
 **#define row1 (1<<PC5)**                - ustawia Port C bit 5 na high
 
