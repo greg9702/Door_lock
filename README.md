@@ -1,4 +1,4 @@
-#Safe lock project
+# Safe lock project
 
 
 #define row1 (1<<PC5)                - ustawia Port C bit 5 na high
