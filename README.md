@@ -1,6 +1,6 @@
 # Safe lock project
 
-## Podpięcie piów
+## Podpięcie pinów
 
 **PD(0-7)** - a-g
 
