@@ -63,7 +63,6 @@ void check();
 void print_marks(uint8_t seg_nr);
 
 uint8_t toDisplay[] = {0x00, 0x01, 0x1F, 0x77, 0x3D, 0x5E ,0x1D}; 
-// 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, null, -, b, A, d, g, o
 
 uint8_t timerButtons[16]; 
 uint8_t segments[4] = {0,0,0,0}; 
