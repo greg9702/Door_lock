@@ -70,18 +70,17 @@
 Widziana z poziomu programu: <br />
 - uzywana do ustawiania tablicy lock_pin[]<br />
 
-
- | <br />| 1 |  | 2 |  | 3 |  | 4 |  |<br />
- | <br />| 5 | | 6 |  | 7 |  | 8 |  |<br />
- | <br />| 9 |  | 10|  | 11|  | 12|  |<br />
- |  | 13|  | 14|  | 15|  | 16|  |<br />
+ | 1 |  | 2 |  | 3 |  | 4 |<br />
+ | 5 | | 6 |  | 7 |  | 8 |<br />
+ | 9 |  | 10|  | 11|  | 12|<br />
+ | 13|  | 14|  | 15|  | 16|<br />
 
 Widziana przez uzytkowanika:
 
- |  | 1 |  | 2 |  | 3 |  | OK|  |<br />
- |  | 4 |  | 5 |  | 6 |  | C |  |<br />
- |  | 7 |  | 8 |  | 9 |  |RES|  |<br />
- |  | x |  | 0 |  | x |  | x |  |<br />
+ | 1 |  | 2 |  | 3 |  | OK|  <br />
+ | 4 |  | 5 |  | 6 |  | C |  <br />
+ | 7 |  | 8 |  | 9 |  |RES|  <br />
+ | x |  | 0 |  | x |  | x |  <br />
 
 x - oznacza przycisk nieuzywany 
 
