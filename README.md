@@ -1,6 +1,8 @@
 # Safe lock project
+Projekt na przedmiot na studiach Technika Mikroprocesorowa.
 
-Do projektu użyto Arduino Uno - Atmega328P oraz WiciuBoard
+Do projektu użyto Arduino Uno - Atmega328P oraz WiciuBoard.
+
 ## Podpięcie pinów
 
 **PD(0-7)** - a-g
