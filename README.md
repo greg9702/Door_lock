@@ -130,4 +130,4 @@ skoro mozna uzywac pierwszego bez zmieniania niczego
                                 zasilania, przycisnicie przycisku wymusza<br />
                                 stan niski
 
-**ISR (TIMER0_COMPA_vect)** - funkcja wywolywana przez przetwanie w                               konkretnych odstepach czasu
+**ISR (TIMER0_COMPA_vect)** - funkcja przerwania wywolywana w                               konkretnych odstepach czasu
