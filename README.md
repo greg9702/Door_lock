@@ -126,7 +126,7 @@ skoro mozna uzywac pierwszego bez zmieniania niczego
 **PORTB|= row3| row4**; - rzedy ustawia na stan wysoki
 
 **DDRB &= ~(column1 | column2 | column3 | column4)**; - kolumny jako wejscia<br />
-**PORTB |= (column1 | column2 | column3 | column4)**; - posciagniecie do <br />
+**PORTB |= (column1 | column2 | column3 | column4)**; - podciagniecie do <br />
                                 zasilania, przycisnicie przycisku wymusza<br />
                                 stan niski
 
