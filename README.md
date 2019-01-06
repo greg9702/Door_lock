@@ -1,4 +1,4 @@
-# Safe lock project PL GUIDE
+# Safe lock project PL 
 Projekt zamka z szyfrem na przedmiot na studiach Technika Mikroprocesorowa.
 
 Do projektu użyto Arduino Uno - Atmega328P oraz WiciuBoard.
