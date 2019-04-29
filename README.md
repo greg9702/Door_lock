@@ -3,6 +3,12 @@ Projekt zamka z szyfrem na przedmiot na studiach Technika Mikroprocesorowa.
 
 Do projektu użyto Arduino Uno - Atmega328P oraz WiciuBoard.
 
+## Demo:
+[Imgur](https://i.imgur.com/Q1uOY2U.gifv)
+
+
+
+
 ## Podpięcie pinów
 
 **PD(0-7)** - a-g
