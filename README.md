@@ -10,8 +10,8 @@ User have to input 4-char long password. <br>
 The display show '-' symbols subtend to every number entered. <br>
 User can _Cancel_ action or _Delete_ last entered character. <br>
 After confirmation, the system display response to user _OK_ if password was correct <br>
-or _BAD_ if entered password was incorrect. <br>
-After couple seconds, system restart itself.
+or _BAD_ if entered password was incorrect. 
+After couple seconds, system restart itself.<br>
 Correct password is set directly in code.
 
 ### __Demo:__
