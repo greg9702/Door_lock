@@ -29,6 +29,6 @@ Demo is [here](https://i.imgur.com/Q1uOY2U.gifv).
 
 **PC(0-3)** - anode 1-4
 
-#### Display
+#### Display:
 
 **PD(0-7)** - a-g
