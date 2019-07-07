@@ -15,7 +15,7 @@ After couple seconds, system restart itself.<br>
 Correct password is set directly in code.
 
 ### __Demo:__
-Demo is [here](https://i.imgur.com/Q1uOY2U.gifv).
+![here](demo/Demo.gif).
 
 ### __Pins__
 
